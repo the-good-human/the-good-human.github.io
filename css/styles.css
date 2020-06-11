@@ -3283,9 +3283,9 @@ input[type="button"].btn-block {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #fff; }
+  color: black; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #fff; }
+    color: black; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }
@@ -5086,6 +5086,7 @@ button.bg-dark:focus {
   align-items: flex-end !important; }
 
 .align-items-center {
+  color: #fffc3c;
   align-items: center !important; }
 
 .align-items-baseline {
@@ -7035,7 +7036,7 @@ a.text-primary:hover, a.text-primary:focus {
   color: black !important; }
 
 .text-secondary {
-  color: #fffc3c !important; }
+  color: black !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
   color: #efeb00 !important; }
@@ -7190,7 +7191,7 @@ h3 {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color: #fffc3c;
+    background-color: black;
     border-radius: 1rem;
     border-color: #fffc3c !important; }
     .divider-custom .divider-custom-line:first-child {
@@ -7198,12 +7199,12 @@ h3 {
     .divider-custom .divider-custom-line:last-child {
       margin-left: 1rem; }
   .divider-custom .divider-custom-icon {
-    color: #fffc3c !important;
+    color: black !important;
     font-size: 2rem; }
   .divider-custom.divider-light .divider-custom-line {
-    background-color: #fff; }
+    background-color: #fffc3c; }
   .divider-custom.divider-light .divider-custom-icon {
-    color: #fff !important; }
+    color: #fffc3c !important; }
 
 .btn-xl {
   padding: 1rem 1.75rem;
@@ -7235,17 +7236,17 @@ h3 {
   font-family: "SB Heading", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700; }
   #mainNav .navbar-brand {
-    color: #fff; }
+    color: black; }
   #mainNav .navbar-nav {
     margin-top: 1rem; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: #fff; }
+      color: #181701; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #181701; }
-      #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
-      #mainNav .navbar-nav li.nav-item a.nav-link.active {
+      #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #181701; }
+      #mainNav .navbar-nav li.nav-item a.nav-link.active {
+        color: #fff; }
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
@@ -7293,35 +7294,35 @@ h3 {
     .masthead .masthead-subheading {
       font-size: 1.5rem; } }
 
-.portfolio .portfolio-item {
+.stories .stories-item {
   cursor: pointer;
   position: relative;
   display: block;
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden; }
-  .portfolio .portfolio-item .portfolio-item-caption {
+  .stories .stories-item .stories-item-caption {
     position: absolute;
     top: 0;
     left: 0;
     transition: all 0.2s ease-in-out;
     opacity: 0;
     background-color: rgba(24, 23, 1, 0.9); }
-    .portfolio .portfolio-item .portfolio-item-caption:hover {
+    .stories .stories-item .stories-item-caption:hover {
       opacity: 1; }
-    .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    .stories .stories-item .stories-item-caption .stories-item-caption-content {
       font-size: 1.5rem; }
 
-.portfolio-modal .portfolio-modal-title {
+.stories-modal .stories-modal-title {
   font-size: 2.25rem;
   line-height: 2rem; }
 
 @media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
+  .stories-modal .stories-modal-title {
     font-size: 3rem;
     line-height: 2.5rem; } }
 
-.portfolio-modal .close {
+.stories-modal .close {
   position: absolute;
   z-index: 1;
   right: 1.5rem;
@@ -7385,7 +7386,7 @@ form .row:first-child .floating-label-form-group {
 #brandImage {
   height: 2rem; }
 
-.portfolio {
+.stories {
   padding-top: 6rem;
   padding-bottom: 4.5rem; }
 
@@ -7398,7 +7399,7 @@ form .row:first-child .floating-label-form-group {
 .pre-wrap {
   white-space: pre-wrap; }
 
-.icon-contact {
+.icon-donate {
   display: flex;
   height: 5rem;
   width: 5rem;
