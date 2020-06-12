@@ -19,7 +19,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #181701;
-  --secondary: #fffc3c;
+  --secondary: #f7c500; /*#fffc3c*/
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -1808,8 +1808,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #212529;
-  background-color: #fffc3c;
-  border-color: #fffc3c; }
+  background-color: #f7c500;
+  border-color: #f7c500; }
   .btn-secondary:hover {
     color: #212529;
     background-color: #fffb16;
@@ -1821,8 +1821,8 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(222, 220, 57, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {
     color: #212529;
-    background-color: #fffc3c;
-    border-color: #fffc3c; }
+    background-color: #f7c500;
+    border-color: #f7c500; }
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
     color: #212529;
     background-color: #fffb09;
@@ -1994,21 +1994,21 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(24, 23, 1, 0.5); }
 
 .btn-outline-secondary {
-  color: #fffc3c;
-  border-color: #fffc3c; }
+  color: #f7c500;
+  border-color: #f7c500; }
   .btn-outline-secondary:hover {
     color: #212529;
-    background-color: #fffc3c;
-    border-color: #fffc3c; }
+    background-color: #f7c500;
+    border-color: #f7c500; }
   .btn-outline-secondary:focus, .btn-outline-secondary.focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 252, 60, 0.5); }
   .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-    color: #fffc3c;
+    color: #f7c500;
     background-color: transparent; }
   .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
     color: #212529;
-    background-color: #fffc3c;
-    border-color: #fffc3c; }
+    background-color: #f7c500;
+    border-color: #f7c500; }
     .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(255, 252, 60, 0.5); }
 
@@ -3620,7 +3620,7 @@ input[type="button"].btn-block {
 
 .badge-secondary {
   color: #212529;
-  background-color: #fffc3c; }
+  background-color: #f7c500; }
   a.badge-secondary:hover, a.badge-secondary:focus {
     color: #212529;
     background-color: #fffb09; }
@@ -4710,7 +4710,7 @@ button.bg-primary:focus {
   background-color: black !important; }
 
 .bg-secondary {
-  background-color: #fffc3c !important; }
+  background-color: #f7c500 !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -4805,7 +4805,7 @@ button.bg-dark:focus {
   border-color: #181701 !important; }
 
 .border-secondary {
-  border-color: #fffc3c !important; }
+  border-color: #f7c500 !important; }
 
 .border-success {
   border-color: #28a745 !important; }
@@ -5086,7 +5086,7 @@ button.bg-dark:focus {
   align-items: flex-end !important; }
 
 .align-items-center {
-  color: #fffc3c;
+  color: #f7c500;
   align-items: center !important; }
 
 .align-items-baseline {
@@ -7193,7 +7193,7 @@ h3 {
     height: 0.25rem;
     background-color: black;
     border-radius: 1rem;
-    border-color: #fffc3c !important; }
+    border-color: #f7c500 !important; }
     .divider-custom .divider-custom-line:first-child {
       margin-right: 1rem; }
     .divider-custom .divider-custom-line:last-child {
@@ -7202,9 +7202,9 @@ h3 {
     color: black !important;
     font-size: 2rem; }
   .divider-custom.divider-light .divider-custom-line {
-    background-color: #fffc3c; }
+    background-color: #f7c500; }
   .divider-custom.divider-light .divider-custom-icon {
-    color: #fffc3c !important; }
+    color: #f7c500 !important; }
 
 .btn-xl {
   padding: 1rem 1.75rem;
@@ -7377,8 +7377,8 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #fffc3c;
-  color: #fff; }
+  background-color: #f7c500;
+  color: black; }
 
 .copyright {
   background-color: #fffb09; }
