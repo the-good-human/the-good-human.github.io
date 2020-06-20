@@ -66,7 +66,7 @@
     });
   
     // Read More function in 'About' Section
-    $('.more').click(function(e) {
+    $(document).on("click", '.more', function(e) {
       e.preventDefault();
       $(this).text(function(i, t) {
         return t == ' (Read Less)' ? '...Read More' : ' (Read Less)';
@@ -74,7 +74,7 @@
     });
     
     // 더 읽기 function, 'About' Section에서
-    $('.more2').click(function(e) {
+    $(document).on("click", '.more2', function(e) {
       e.preventDefault();
       $(this).text(function(i, t) {
         return t == ' (덜 읽기)' ? '...더 읽기' : ' (덜 읽기)';
