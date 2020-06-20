@@ -65,5 +65,19 @@
       });
     });
   
+    // Read More function in 'About' Section
+    $('.more').click(function(e) {
+      e.preventDefault();
+      $(this).text(function(i, t) {
+        return t == ' (Read Less)' ? '...Read More' : ' (Read Less)';
+      }).prev('.more-cont').slideToggle()
+    });
+    
+    // 더 읽기 function, 'About' Section에서
+    $('.more2').click(function(e) {
+      e.preventDefault();
+      $(this).text(function(i, t) {
+        return t == ' (덜 읽기)' ? '...더 읽기' : ' (덜 읽기)';
+      }).prev('.more2-cont').slideToggle()
+    });
   })(jQuery); // End of use strict
-  
